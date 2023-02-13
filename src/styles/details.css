@@ -1,0 +1,55 @@
+h1 {
+    font-size: 3em;
+    text-align: center;
+    color: rgb(250, 215, 215);
+    -webkit-text-stroke: .5px black;
+}
+
+h2 {
+    padding: 0px;
+    margin: 5px;
+    text-align: center;
+}
+
+.submissionForm {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid crimson;
+    padding: 10px;
+    background-color: rgba(250, 215, 215, .5);
+    justify-content: middle;
+}
+
+.reservationsList {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid crimson;
+    padding: 10px;
+    max-width: 600px;
+    background-color: rgba(250, 215, 215, .5);
+}
+
+.main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+#submitReservation {
+    margin: 1rem 0 2rem 2rem;
+    padding: 0.5rem;
+    background-color: rgb(227, 72, 72);
+    color: rgb(250, 215, 215);
+    font-size: 1rem;
+    align-self: center;
+}
+
+li {
+    padding: 3px;
+    list-style-type: none;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+}

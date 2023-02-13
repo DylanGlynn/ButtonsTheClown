@@ -1,0 +1,40 @@
+{
+  "clowns": [
+    {
+      "id": 1,
+      "name": "Buttons"
+    },
+    {
+      "id": 2,
+      "name": "Lollipop"
+    }
+  ],
+  "reservations": [
+    {
+      "parentName": "AJ",
+      "childName": "Jeremy",
+      "attendees": "30",
+      "address": "808 Beaten Path",
+      "date": "2023-02-24",
+      "duration": "5",
+      "id": 2
+    },
+    {
+      "parentName": "Randy",
+      "childName": "Chris",
+      "attendees": "5",
+      "address": "407 Lavender Trial (sic)",
+      "date": "2023-02-03",
+      "duration": "4",
+      "id": 3
+    }
+  ],
+  "completions": [
+    {
+      "reservationId": "2",
+      "clownId": "1",
+      "timestamp": 1675442217904,
+      "id": 1
+    }
+  ]
+}
